@@ -17,6 +17,8 @@
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 86px;
+    overflow-x: hidden;
+    scrollbar-width: 1px;
   }
 
   body {
@@ -597,8 +599,7 @@
 
   .transform-image img {
     height: 100%;
-    object-position: center;
-    filter: saturate(.82);
+    object-position: cover;
   }
 
   .transform-image--after {
