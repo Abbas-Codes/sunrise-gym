@@ -26,6 +26,7 @@
     color: var(--fg);
     background: var(--bg);
     font-family: var(--body);
+    overflow-x: hidden;
   }
 
   body,
